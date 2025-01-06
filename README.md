@@ -1,19 +1,16 @@
 # Introduction
-This repo provides a comprehensive framework for automating the testing of ITM Platform using Selenium WebDriver and Java.
-
-The aim is to reduce manual testing efforts, automate different test scenarios which include smoke tests, regression tests, bug fixes, end-to-end tests and increase test coverage.
+The UI-E2E-Testing repository provides a robust framework for automating end-to-end testing of the ITM Platform using Selenium WebDriver and Java.
+The goal is to minimize manual testing efforts by automating various test scenarios, including smoke tests, functional tests, and regression tests for bug fixes.
 
 # Getting Started
 ### 1. Software dependencies
 
 - Java Development Kit (JDK): Version 17 or higher
+Download Java installer from here - [Link for Java Installer](https://www.oracle.com/in/java/technologies/downloads/)
 - IntelliJ IDE community version
-- Selenium WebDriver: Latest version
-- Maven: For managing project dependencies
-- TestNG: For organizing and running test cases
+Download the IntelliJ community version from here - [Link for IntelliJ community edition](https://www.jetbrains.com/idea/download/?section=windows)
 
-Make sure to install Java and set path of the java bin folder in **path** system environment Variable. Must have IntelliJ IDE to execute the tests.
-
+Make sure to install Java and set the path of the **Java bin folder** in the **path system environment variable**. Must have IntelliJ IDE to execute the tests.
 The other dependencies come along with the project.
 
 ### 2. Installation
