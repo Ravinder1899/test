@@ -10,7 +10,7 @@ Download Java installer from here - [Link for Java Installer](https://www.oracle
 - IntelliJ IDE community version
 Download the IntelliJ community version from here - [Link for IntelliJ community edition](https://www.jetbrains.com/idea/download/?section=windows)
 
-Make sure to install Java and set the path of the **Java bin folder** in the **path system environment variable**. Must have IntelliJ IDE to execute the tests.
+Make sure to install Java and set the path of the **Java bin folder** in the **path system environment variable**. Must have IntelliJ IDE to execute the tests. 
 The other dependencies come along with the project.
 
 ### 2. Installation
