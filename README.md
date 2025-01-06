@@ -5,18 +5,10 @@ The goal is to minimize manual testing efforts by automating various test scenar
 # Getting Started
 ### 1. Software dependencies
 
-- Java Development Kit (JDK): Version 17 or higher
+- Java Development Kit (JDK): Version 17 or higher (download Java installer from here - [Link for Java Installer](https://www.oracle.com/in/java/technologies/downloads/))
+- IntelliJ IDE community version (download IntelliJ community version from here - [Link for IntelliJ community edition](https://www.jetbrains.com/idea/download/?section=windows))
 
-Download Java installer from here - [Link for Java Installer](https://www.oracle.com/in/java/technologies/downloads/)
-- IntelliJ IDE community version
-
-Download the IntelliJ community version from here - [Link for IntelliJ community edition](https://www.jetbrains.com/idea/download/?section=windows)
-
-<<<<<<< HEAD
-Make sure to install Java and set the path of the **Java bin folder** in the **path system environment variable**. Must have IntelliJ IDE to execute the tests.
-=======
-Make sure to install Java and set the path of the **Java bin folder** in the **path system environment variable**. Must have IntelliJ IDE to execute the tests. 
->>>>>>> eae3f1d61e4e435403ed661fff4fb3bf9ff850b1
+Make sure to install Java and set the path of the **Java bin folder** in the **path** system environment variable. Must have IntelliJ IDE to execute the tests.
 
 The other dependencies come along with the project.
 
