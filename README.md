@@ -15,7 +15,28 @@ The other dependencies come along with the project.
 ### 2. Installation
 
 Clone the project using git clone command or download as zip. Open in IntelliJ and you are all set to proceed.
-![img.png](images/img.png)
+
+# Build and Test
+
+- Configure Java in the test automation framework from the Project Structure -> Project Settings -> Project settings tab following the below steps:
+
+Access Project Structure from the settings icon in the top right corner.
+![img.png](UE-E2E-Testing Understading/ReadmeImages/img.png)
+
+Set Java in the test automation framework from the Project Settings -> Project settings tab.
+![img.png](UE-E2E-Testing Understading/ReadmeImages/img2.png)
+
+- To build the project open the IDE terminal by **clicking ctrl twice** and run **mvn clean install** command. This would compile, test & package the project and install/copy the built .jar/.war file from the pom.xml file into your local maven repository.
+![img.png](UE-E2E-Testing Understading/ReadmeImages/img3.png)
+
+- To run the tests:
+Way 1 - Use the **mvn test** command in the terminal from the bottom left corner as shown.
+![img.png](UE-E2E-Testing Understading/ReadmeImages/img4.png)
+The runner xml file name configured inside the **pom.xml file** under the **plugins** will be executed by the **mvn test** command.
+![img.png](UE-E2E-Testing Understading/ReadmeImages/img5.png)
+
+Way 2 - Right-click any of runner xml files under the TestRunner folder and select Run to start the test execution as shown.
+![img.png](UE-E2E-Testing Understading/ReadmeImages/img6.png)
 
 ### 3. API references
 Refer to the following documentation for detailed API references:
