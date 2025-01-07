@@ -15,6 +15,7 @@ The other dependencies come along with the project.
 ### 2. Installation
 
 Clone the project using git clone command or download as zip. Open in IntelliJ and you are all set to proceed.
+![img.png](images/img.png)
 
 ### 3. API references
 Refer to the following documentation for detailed API references:
