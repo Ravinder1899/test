@@ -16,7 +16,7 @@ The other dependencies come along with the project.
 
 Clone the project using git clone command or download as zip. Open in IntelliJ and you are all set to proceed.
 
-### Build and Test
+### 3. Build and Test
 
 - Configure Java in the test automation framework from the Project Structure -> Project Settings -> Project settings tab following the below steps:
     - Access Project Structure from the settings icon in the top right corner.  
@@ -31,12 +31,13 @@ Clone the project using git clone command or download as zip. Open in IntelliJ a
 
     - Way 2 - Right-click any of runner xml files under the TestRunner folder and select Run to start the test execution as shown.  ![img.png](UE-E2E-Testing_Understading/ReadmeImages/img6.png)
 
-### 3. API references
+# API references
 Refer to the following documentation for detailed API references:
 
-- Selenium WebDriver: [Selenium API Documentation](https://www.selenium.dev/documentation/)
-- TestNG: [TestNG Documentation](https://testng.org/)
+- Selenium WebDriver: [Selenium Documentation](https://www.selenium.dev/documentation/)
 - Maven: [Maven Documentation](https://maven.apache.org/guides/index.html)
+- TestNG: [TestNG Documentation](https://testng.org/)
+- REST Assured: [REST Assured Documentation](https://rest-assured.io/)
 
 # Contribute
 
