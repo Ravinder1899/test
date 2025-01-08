@@ -19,7 +19,8 @@ Clone the project using git clone command or download as zip. Open in IntelliJ a
 # Build and Test
 
 - Configure Java in the test automation framework from the Project Structure -> Project Settings -> Project settings tab following the below steps:
-    - Access Project Structure from the settings icon in the top right corner.    ![img.png](UE-E2E-Testing_Understading/ReadmeImages/img.png)
+    - Access Project Structure from the settings icon in the top right corner.  
+      ![img.png](UE-E2E-Testing_Understading/ReadmeImages/img.png)
     - Set Java in the test automation framework from the Project Settings -> Project settings tab.    ![img.png](UE-E2E-Testing_Understading/ReadmeImages/img2.png)
 
 - To build the project open the IDE terminal by **clicking ctrl twice** and run **mvn clean install** command. This would compile, test & package the project and install/copy the built .jar/.war file from the pom.xml file into your local maven repository.  ![img.png](UE-E2E-Testing_Understading/ReadmeImages/img3.png)
