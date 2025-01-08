@@ -41,5 +41,5 @@ Refer to the following documentation for detailed API references:
 
 # Contribute
 
-- Submit bugs and feature requests, and help us verify as they are checked in
-- Review source code changes
+- Submit bugs and feature requests, and help us verify as they are checked in.
+- Review source code changes.
