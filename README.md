@@ -16,7 +16,7 @@ The other dependencies come along with the project.
 
 Clone the project using git clone command or download as zip. Open in IntelliJ and you are all set to proceed.
 
-# Build and Test
+### Build and Test
 
 - Configure Java in the test automation framework from the Project Structure -> Project Settings -> Project settings tab following the below steps:
     - Access Project Structure from the settings icon in the top right corner.  
@@ -37,13 +37,6 @@ Refer to the following documentation for detailed API references:
 - Selenium WebDriver: [Selenium API Documentation](https://www.selenium.dev/documentation/)
 - TestNG: [TestNG Documentation](https://testng.org/)
 - Maven: [Maven Documentation](https://maven.apache.org/guides/index.html)
-
-# Build and Test
-To build the project open the IDE terminal by clicking ctrl twice and run **mvn clean install** command. This would compile, test & package the project and install/copy the built .jar/.war file from the pom.xml file into your local maven repository.
-
-To run the tests right-click the TestRunner/TestSuite.xml file and select **Run** to start the test execution. The TestRunner has multiple runner files based on the type of test cases. To execute particular test case groups use the specific runner file and to execute all the test cases use TestSuite.xml file. The tests report result is generated in the target/Extent-Reports folder.
-
-To run tests on stage or production choose the desired URL from the src/test/java/Utils/EnvironmentVariables.properties file and use that URL in **driver.navigate().to()** command in the **setupBrowserAndNavigateToWebApp()** method in src/test/java/Utils/Config/Utils.Config.BaseClass file.
 
 # Contribute
 
