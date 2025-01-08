@@ -32,10 +32,10 @@ The runner xml file under the TestRunner folder needs to be executed to run the 
 
     - Way 2 - Right-click any of runner xml files under the TestRunner folder and select Run to start the test execution as shown.  ![img.png](UE-E2E-Testing_Understading/ReadmeImages/img6.png)  
 
-To execute the test cases on local make sure to have the **EnvironmentVariables.properties** file under the **/src/test/java/Utils/** folder or create a new one. Add the configurations for the ITM environment to run the test cases for in the same file by copying them from the below file:
-- new environment: /src/test/java/Utils/EnvironmentVariables.stage.properties
-- prod environment: /src/test/java/Utils/EnvironmentVariables.prod.properties
-- demo environment: /src/test/java/Utils/EnvironmentVariables.demo.properties
+To execute the test cases on local make sure to have the **EnvironmentVariables.properties** file under the **/src/test/java/Utils/** folder or create a new one. Add the configurations for the ITM environment to run the test cases for in the same file by copying them from the below files:
+- **new environment:** /src/test/java/Utils/EnvironmentVariables.stage.properties
+- **prod environment:** /src/test/java/Utils/EnvironmentVariables.prod.properties
+- **demo environment:** /src/test/java/Utils/EnvironmentVariables.demo.properties
 
 # API references
 Refer to the following documentation for detailed API references:
